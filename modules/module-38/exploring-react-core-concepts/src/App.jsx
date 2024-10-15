@@ -2,13 +2,21 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
+import Todo from './todo'
+import Actor from './Actor'
 
 function App() {
+  const actors = ['Sakib Khan', 'Jashim Khan', 'Amir Khan', 'Hridoy Khan', 'Eliyas Khan']
 
   return (
     <>
 
       <h1>Vite + React</h1>
+      <Actor name="Bapparaj"></Actor>
+      {actors.map(actor => <Actor name={actor}></Actor>)}
+      {/* <Todo serial={1} task="learning React JS" isDone={false}></Todo>
+      <Todo serial={2} task="Conditional Rendering" isDone={true}></Todo>
+      <Todo serial={3} task="Exploring Core Concepts" isDone={false}></Todo> */}
       {/* <Person></Person>
       <Student name="imran" age="23"></Student>
       <Developer></Developer> */}
