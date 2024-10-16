@@ -1,4 +1,4 @@
-
+import './actor.css'
 export default function Actor({ name }) {
-    return <li>Name: {name}</li>
+    return <li className="actor">Name: {name}</li>
 }

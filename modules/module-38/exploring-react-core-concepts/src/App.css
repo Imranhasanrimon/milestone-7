@@ -45,6 +45,7 @@
 }
 
 .student {
+  margin: 5px;
   padding: 20px;
   border: 2px solid tomato;
   border-radius: 10px;
