@@ -10,6 +10,10 @@ export default function Counter() {
         setCount(count - 1)
     }
 
+
+
+
+
     return (
         <div>
             <h3>Counter: {count}</h3>
