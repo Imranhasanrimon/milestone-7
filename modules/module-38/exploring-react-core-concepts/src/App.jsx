@@ -5,7 +5,7 @@ import './App.css'
 import Todo from './todo'
 import Actor from './Actor'
 
-function App() {
+function Student() {
 
   return (
     <>
@@ -19,5 +19,13 @@ function App() {
   )
 }
 
+function App() {
+  return (
+    <div>
+      <h1>this is student component</h1>
+      <Student></Student>
+    </div>
+  )
+}
 
 export default App
