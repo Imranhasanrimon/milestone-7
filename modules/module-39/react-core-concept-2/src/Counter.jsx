@@ -7,8 +7,7 @@ export default function Counter() {
         setCount(newCount);
     }
     const hadleReduce = () => {
-        const newCount = count - 1;
-        setCount(newCount)
+        setCount(count - 1)
     }
 
     return (
