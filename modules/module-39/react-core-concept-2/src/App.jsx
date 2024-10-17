@@ -14,7 +14,7 @@ function App() {
 
   return (
     <>
-      <h3 style={counterStyles}>React Core Concepts 2</h3>
+      <h3>React Core Concepts 2</h3>
       <Counter style={counterStyles}></Counter>
 
 
