@@ -4,15 +4,16 @@ import User from './User';
 import Friends from './Friends';
 
 function App() {
+  const handleClick = (name) => {
+    // const name = 'imrna'
+    alert(name)
+
+  }
 
   return (
     <>
-
       <h3>React Core Concepts 2</h3>
-      <Friends></Friends>
-      {/* <User></User> */}
-      {/* <Counter></Counter> */}
-
+      <button onClick={() => handleClick('imrna')}>Click</button>
 
     </>
   )
