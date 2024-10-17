@@ -8,8 +8,7 @@ export default function Counter({ style }) {
         setCount(newCount);
     }
     const handleReduce = () => {
-        const newCount = count - 1;
-        setCount(newCount)
+        setCount(count - 1)
     }
     return (
         <div style={style}>
