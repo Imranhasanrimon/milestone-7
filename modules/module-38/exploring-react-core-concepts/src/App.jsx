@@ -5,26 +5,21 @@ import './App.css'
 import Todo from './todo'
 import Actor from './Actor'
 
-function Student() {
-
+function App() {
+  const [state, setState] = useState(0);
+  const handleAdd = () => {
+    setState(state + 1)
+  }
+  console.log(state);
   return (
     <>
 
-      <h1>Vite + React</h1>
-      <Actor name="Bapparaj"></Actor>
-      <Todo serial={2} task='Conditonal Rendering' isDone={true}></Todo>
+      <h3>Vite + React</h3>
+      <button onClick={handleAdd}>Add</button>
+
 
 
     </>
-  )
-}
-
-function App() {
-  return (
-    <div>
-      <h1>this is student component</h1>
-      <Student></Student>
-    </div>
   )
 }
 
