@@ -11,7 +11,7 @@ export default function Players() {
     }
 
     return (
-        <div>
+        <div className="box">
             <h3>Players: {player}</h3>
             <button onClick={handleHire}>Hire</button>
             <button onClick={handleCut}>Cut</button>

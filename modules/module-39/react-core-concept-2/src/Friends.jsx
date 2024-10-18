@@ -8,12 +8,12 @@ export default function Friends() {
         fetch('https://jsonplaceholder.typicode.com/users')
             .then(res => res.json())
             .then(data => setFriends(data))
-    }, [])
+    }, []);
     return (
         <div className='box'>
             <h3>Friends: {friends.length}</h3>
             {
-                friends.map(friend => <Friend friend={friend}></Friend>)
+                friends.map(friend => <Friend fdId={friend.id} friend={friend}></Friend>)
             }
 
         </div>

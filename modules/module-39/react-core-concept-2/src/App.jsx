@@ -16,6 +16,8 @@ function App() {
   return (
     <>
       <h3>React Core Concepts 2</h3>
+      <Friends></Friends>
+      <User></User>
       <Players></Players>
       <Counter style={counterStyles}></Counter>
 

@@ -10,7 +10,7 @@ export default function User() {
     }, [])
     return (
         <div>
-            <h3>Users: {users.length}</h3>
+            <h3 className="box">Users: {users.length}</h3>
         </div>
     )
 }
