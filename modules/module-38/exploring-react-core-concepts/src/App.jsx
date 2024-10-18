@@ -6,16 +6,16 @@ import Todo from './todo'
 import Actor from './Actor'
 
 function App() {
-  const [state, setState] = useState(0);
-  const handleAdd = () => {
-    setState(state + 1)
+  const [state, setState] = useState(true);
+  const handleSwitch = () => {
+    setState(!state)
   }
   console.log(state);
   return (
     <>
 
       <h3>Vite + React</h3>
-      <button onClick={handleAdd}>Add</button>
+      <button onClick={handleSwitch}>Switch</button>
 
 
 
