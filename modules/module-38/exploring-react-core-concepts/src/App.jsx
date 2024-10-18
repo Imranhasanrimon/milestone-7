@@ -10,11 +10,17 @@ function App() {
   const handleSwitch = () => {
     setState(!state)
   }
-  console.log(state);
+
+  const funcFromAppJs = (message) => {
+    return message
+  }
+
   return (
     <>
 
       <h3>Vite + React</h3>
+      <Actor func={funcFromAppJs}></Actor>
+
       <button onClick={handleSwitch}>Switch</button>
 
 
