@@ -1,0 +1,4 @@
+1.useState
+2.useEffect---dependency
+3.localStorage(41.7,41.8)
+4.propTypes warning(41.9)
