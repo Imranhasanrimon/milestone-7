@@ -8,10 +8,12 @@ function App() {
 
   return (
     <>
-      <Header></Header>
-      <div className='grid grid-cols-1 md:grid-cols-3 border'>
-        <Blogs></Blogs>
-        <Bookmarks></Bookmarks>
+      <div className='max-w-screen-xl w-11/12 mx-auto'>
+        <Header></Header>
+        <div className='grid grid-cols-1 md:grid-cols-3 mt-8'>
+          <Blogs></Blogs>
+          <Bookmarks></Bookmarks>
+        </div>
       </div>
 
     </>

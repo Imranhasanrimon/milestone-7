@@ -9,10 +9,9 @@ const Blogs = () => {
             .then(data => setBlogs(data))
     }, [])
     return (
-        <div className="border md:col-span-2">
-            <h1>Blogs: {blogs.length}</h1>
+        <div className="md:col-span-2">
             {
-                // blogs.map(blog => <Blog key={blog.id} blog={blog}></Blog>)
+                blogs.map(blog => <Blog key={blog.id} blog={blog}></Blog>)
             }
         </div>
     );
