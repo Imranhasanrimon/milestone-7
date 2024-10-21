@@ -1,0 +1,71 @@
+[
+    {
+        "id": 1,
+        "coverPhoto": "https://permutable.ai/wp-content/uploads/2024/03/19301-768x512.jpg",
+        "authorName": "John Doe",
+        "authorImage": "https://plus.unsplash.com/premium_photo-1689977968861-9c91dbb16049?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cHJvZmlsZSUyMHBpY3R1cmV8ZW58MHx8MHx8fDA%3D",
+        "postedDate": "2024-10-20",
+        "readingTime": 5,
+        "hashtags": [
+            "#JavaScript",
+            "#WebDevelopment",
+            "#Coding"
+        ]
+    },
+    {
+        "id": 2,
+        "coverPhoto": "https://i.ibb.co/Dbfd7Lh/wallpaper.png",
+        "title": "Understanding React Hooks",
+        "authorName": "Jane Smith",
+        "authorImage": "https://plus.unsplash.com/premium_photo-1689539137236-b68e436248de?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8cHJvZmlsZSUyMHBpY3R1cmV8ZW58MHx8MHx8fDA%3D",
+        "postedDate": "2024-10-18",
+        "readingTime": 7,
+        "hashtags": [
+            "#React",
+            "#Hooks",
+            "#JavaScript"
+        ]
+    },
+    {
+        "id": 3,
+        "coverPhoto": "https://images.unsplash.com/photo-1564865878688-9a244444042a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZWF0JTIwc2xlZXAlMjBjb2RlfGVufDB8fDB8fHww",
+        "title": "A Beginner’s Guide to CSS Flexbox",
+        "authorName": "Alice Johnson",
+        "authorImage": "https://plus.unsplash.com/premium_photo-1688572454849-4348982edf7d?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8cHJvZmlsZSUyMHBpY3R1cmV8ZW58MHx8MHx8fDA%3D",
+        "postedDate": "2024-10-15",
+        "readingTime": 6,
+        "hashtags": [
+            "#CSS",
+            "#Flexbox",
+            "#WebDesign"
+        ]
+    },
+    {
+        "id": 4,
+        "coverPhoto": "https://images.unsplash.com/photo-1523800503107-5bc3ba2a6f81?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGVhdCUyMHNsZWVwJTIwY29kZXxlbnwwfHwwfHx8MA%3D%3D",
+        "title": "Top 10 Tips for Writing Clean Code",
+        "authorName": "Bob Brown",
+        "authorImage": "https://plus.unsplash.com/premium_photo-1689568126014-06fea9d5d341?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fHByb2ZpbGUlMjBwaWN0dXJlfGVufDB8fDB8fHww",
+        "postedDate": "2024-10-12",
+        "readingTime": 8,
+        "hashtags": [
+            "#CleanCode",
+            "#Programming",
+            "#BestPractices"
+        ]
+    },
+    {
+        "id": 5,
+        "coverPhoto": "https://images.unsplash.com/photo-1607798748738-b15c40d33d57?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGNvZGluZ3xlbnwwfHwwfHx8MA%3D%3D",
+        "title": "Exploring the MERN Stack",
+        "authorName": "Charlie Davis",
+        "authorImage": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fHByb2ZpbGUlMjBwaWN0dXJlfGVufDB8fDB8fHww",
+        "postedDate": "2024-10-10",
+        "readingTime": 10,
+        "hashtags": [
+            "#MERN",
+            "#FullStack",
+            "#WebDevelopment"
+        ]
+    }
+]
