@@ -1,8 +1,9 @@
 
 import PropTypes from "prop-types";
-const Bookmarks = ({ titles }) => {
+const Bookmarks = ({ titles, readingTime }) => {
     return (
         <div>
+            <h4 className="p-3 border rounded-md mb-3 font-semibold border-purple-500 bg-purple-100 text-purple-500">Spent time on read: {readingTime} min</h4>
             <div className="bg-gray-200 p-2 rounded-lg">
                 <h1 className="text-xl mb-3">Bookmarked Blogs: {titles.length}</h1>
                 {
@@ -13,6 +14,7 @@ const Bookmarks = ({ titles }) => {
     );
 };
 Bookmarks.propTypes = {
-    titles: PropTypes.object.isRequired,
+    titles: PropTypes.array.isRequired,
+    readingTime: PropTypes.number.isRequired
 }
 export default Bookmarks;

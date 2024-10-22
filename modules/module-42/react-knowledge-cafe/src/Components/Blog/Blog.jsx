@@ -16,7 +16,7 @@ const Blog = ({ blog, handleBookMark }) => {
 
                 {/* reading time */}
                 <h5 className='text-gray-500 font-semibold'>{readingTime} min read
-                    <button onClick={() => handleBookMark(title)} className='ml-2'><FaRegBookmark></FaRegBookmark></button>
+                    <button onClick={() => handleBookMark(title, readingTime)} className='ml-2'><FaRegBookmark></FaRegBookmark></button>
                 </h5>
             </div>
             <h1 className='text-3xl font-bold w-[80%]'>{title}</h1>
