@@ -12,10 +12,8 @@ const Bottles = () => {
     }, []);
 
     useEffect(() => {
-        console.log('bottle loaded', bottles.length);
         if (bottles.length > 0) {
             const storedCart = getStoredCart();
-            console.log(storedCart);
         }
     }, [bottles])
 
