@@ -18,5 +18,3 @@ const addtoLS = id => {
     saveCartToLS(cart)
 }
 export { addtoLS, getStoredCart }
-
-console.log(localStorage.getItem('cart'));
