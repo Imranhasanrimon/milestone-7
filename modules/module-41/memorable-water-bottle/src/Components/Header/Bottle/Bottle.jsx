@@ -4,7 +4,7 @@ const Bottle = ({ bottle, handleAddToCart }) => {
 
     return (
         < div className="bottle">
-            <h3>bottle:{name}</h3>
+            <h3>{name}</h3>
             <img src={img} alt="" />
             <p>price: {price}</p>
             <button onClick={() => handleAddToCart(bottle)}>Buy</button>
