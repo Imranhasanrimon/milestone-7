@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import Bottle from "../Bottle/Bottle";
 import './Bottles.css'
 import { addtoLS, getStoredCart } from "../../../utilities/localStorage";
+import '../../../utilities/practice-local-storage-managment'
 
 const Bottles = () => {
     const [bottles, setBottles] = useState([]);
