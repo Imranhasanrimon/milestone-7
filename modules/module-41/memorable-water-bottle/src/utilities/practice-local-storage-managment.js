@@ -14,6 +14,8 @@ const setItemToLocalStorage = itemId => {
     const itemArray = getItemFromLocalStorag();
     if (!itemArray.includes(itemId)) {
         itemArray.push(itemId)
+    } else {
+        alert('it has been already added')
     }
     save(itemArray)
 
@@ -24,4 +26,7 @@ const save = (itemArray) => {
     localStorage.setItem('cart2', itemJson)
 }
 // setItemToLocalStorage('hello')
-setItemToLocalStorage('rimon')
+// setItemToLocalStorage('rimon')
+
+
+export { setItemToLocalStorage }

@@ -3,6 +3,7 @@ import Bottle from "../Bottle/Bottle";
 import './Bottles.css'
 import { addtoLS, getStoredCart } from "../../../utilities/localStorage";
 import '../../../utilities/practice-local-storage-managment'
+import { setItemToLocalStorage } from "../../../utilities/practice-local-storage-managment";
 
 const Bottles = () => {
     const [bottles, setBottles] = useState([]);
@@ -22,7 +23,8 @@ const Bottles = () => {
     const handleAddToCart = bottle => {
         const newCart = [...cart, bottle];
         setCart(newCart);
-        addtoLS(bottle.id)
+        addtoLS(bottle.id);
+        setItemToLocalStorage(bottle.id)
     }
 
     return (
