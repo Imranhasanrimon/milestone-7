@@ -25,8 +25,7 @@ const save = (itemArray) => {
     const itemJson = JSON.stringify(itemArray);
     localStorage.setItem('cart2', itemJson)
 }
-// setItemToLocalStorage('hello')
-// setItemToLocalStorage('rimon')
+
 
 
 export { setItemToLocalStorage }
